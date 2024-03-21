@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="voiture" org.eventb.core.type="ℙ(voiture)"/>
+        <org.eventb.core.poIdentifier name="vide" org.eventb.core.type="voiture"/>
+        <org.eventb.core.poIdentifier name="grise" org.eventb.core.type="voiture"/>
+        <org.eventb.core.poIdentifier name="bleu" org.eventb.core.type="voiture"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/station_metro/metro_context.bpo|org.eventb.core.poFile#metro_context|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(voiture,{vide},{grise},{bleu})" org.eventb.core.source="/station_metro/metro_context.buc|org.eventb.core.contextFile#metro_context|org.eventb.core.axiom#+"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
